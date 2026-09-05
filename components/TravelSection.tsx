@@ -4,65 +4,71 @@ import { useCallback, useEffect, useRef, useState } from "react";
 const caseStudies = [
   {
     num: "01",
-    title: "Marketplace Web App",
-    client: "Retail Partner",
-    year: "2025",
-    focus: "Scalability & Checkout Conversions",
-    problem:
-      "The client needed a scalable platform for product listings, inventory management, and low-friction mobile checkout.",
-    solution:
-      "Delivered a performant marketplace with SSR, optimized checkout flows, and reliable payments integration.",
-    stack: ["Next.js", "Postgres", "Stripe", "Vercel"],
-    impact:
-      "Improved conversion paths and prepared the platform for peak-period traffic spikes — shipping in 4 weeks.",
-    image: "", // add image path here e.g. "/images/case-01.png"
+    title: "ObliQ",
+    client: "Personal / open-source",
+    year: "GitHub",
+    focus: "Python project",
+    problem: "A public software project maintained in the Abinav-Kishore GitHub profile.",
+    solution: "Inspect the source, history and documentation in the public repository.",
+    stack: ["Python", "Public repository"],
+    impact: "Portfolio work only. No client, testimonial or business-result claim is made.",
+    repo: "https://github.com/Abinav-Kishore/ObliQ",
+    image: "",
     gradient: "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
   },
   {
     num: "02",
-    title: "Analytics Dashboard",
-    client: "SaaS Company",
-    year: "2025",
-    focus: "Information Clarity & Speed",
-    problem:
-      "Product teams lacked quick access to user engagement metrics, slowing decisions and delaying roadmap prioritization.",
-    solution:
-      "Built an internal dashboard with KPIs, exports, interactive charts, and role-based access control.",
-    stack: ["React", "D3.js", "Firebase", "TypeScript"],
-    impact:
-      "Enabled faster product decisions and cut time-to-insight by 60% for the analytics team.",
+    title: "Vantic",
+    client: "Personal / open-source",
+    year: "GitHub",
+    focus: "TypeScript project",
+    problem: "A public software project maintained in the Abinav-Kishore GitHub profile.",
+    solution: "Inspect the source, history and documentation in the public repository.",
+    stack: ["TypeScript", "Public repository"],
+    impact: "Portfolio work only. No client, testimonial or business-result claim is made.",
+    repo: "https://github.com/Abinav-Kishore/Vantic",
     image: "",
     gradient: "linear-gradient(135deg, #0d1b0d 0%, #1a3a1a 50%, #0d2d0d 100%)",
   },
   {
     num: "03",
-    title: "Mobile Order App",
-    client: "Logistics Startup",
-    year: "2024",
-    focus: "Offline Reliability & Ops Efficiency",
-    problem:
-      "Drivers needed a mobile experience that worked reliably in areas with poor connectivity during deliveries.",
-    solution:
-      "Offline-capable app with queued sync, simplified forms, and clear real-time status flows for drivers.",
-    stack: ["React Native", "Node.js", "MongoDB"],
-    impact:
-      "Reduced delivery errors and improved on-time rates — operational efficiency up significantly.",
+    title: "DayFlow",
+    client: "Personal / open-source",
+    year: "GitHub",
+    focus: "TypeScript project",
+    problem: "A public software project maintained in the Abinav-Kishore GitHub profile.",
+    solution: "Inspect the source, history and documentation in the public repository.",
+    stack: ["TypeScript", "Public repository"],
+    impact: "Portfolio work only. No client, testimonial or business-result claim is made.",
+    repo: "https://github.com/Abinav-Kishore/Dayflow",
     image: "",
     gradient: "linear-gradient(135deg, #1a0d00 0%, #3d1f00 50%, #1a0d00 100%)",
   },
   {
     num: "04",
-    title: "Marketing + Automation",
-    client: "Startup Launch",
-    year: "2024",
-    focus: "Conversions & Lead Automation",
-    problem:
-      "The startup needed a fast landing page and automated lead routing to accelerate early acquisition.",
-    solution:
-      "Conversion-focused landing with form submission automations and direct CRM lead routing.",
-    stack: ["Next.js", "Zapier", "Sanity", "Mailchimp"],
-    impact:
-      "Increased sign-ups and eliminated manual lead handling for the founding team.",
+    title: "Viora",
+    client: "Personal / open-source",
+    year: "GitHub",
+    focus: "Kotlin project",
+    problem: "A public software project maintained in the Abinav-Kishore GitHub profile.",
+    solution: "Inspect the source, history and documentation in the public repository.",
+    stack: ["Kotlin", "Public repository"],
+    impact: "Portfolio work only. No client, testimonial or business-result claim is made.",
+    repo: "https://github.com/Abinav-Kishore/Viora",
+    image: "",
+    gradient: "linear-gradient(135deg, #1a001a 0%, #2d002d 50%, #1a0033 100%)",
+  },
+  {
+    num: "05",
+    title: "CASCADE",
+    client: "Personal / open-source",
+    year: "GitHub",
+    focus: "TypeScript project",
+    problem: "A public software project maintained in the Abinav-Kishore GitHub profile.",
+    solution: "Inspect the source, history and documentation in the public repository.",
+    stack: ["TypeScript", "Public repository"],
+    impact: "Portfolio work only. No client, testimonial or business-result claim is made.",
+    repo: "https://github.com/Abinav-Kishore/Cascade",
     image: "",
     gradient: "linear-gradient(135deg, #1a001a 0%, #2d002d 50%, #1a0033 100%)",
   },
@@ -113,6 +119,14 @@ function ContentBody({ cs }: { cs: Case }) {
             Impact
           </div>
           <div className="cs-impact-text">{cs.impact}</div>
+          <a
+            className="cs-repo-link"
+            href={cs.repo}
+            target="_blank"
+            rel="noreferrer"
+          >
+            View public repository -&gt;
+          </a>
         </div>
       </div>
     </div>
@@ -212,6 +226,14 @@ function MobileCarousel() {
                 Impact
               </div>
               <div className="cs-impact-text">{cs.impact}</div>
+              <a
+                className="cs-repo-link"
+                href={cs.repo}
+                target="_blank"
+                rel="noreferrer"
+              >
+                View public repository -&gt;
+              </a>
             </div>
           </div>
         </div>

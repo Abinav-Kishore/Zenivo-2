@@ -3852,3 +3852,64 @@ a.contact-detail-val:hover {
   text-transform: uppercase;
   line-height: 1;
 }
+.cs-repo-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--gold);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.policy-page {
+  min-height: 70vh;
+  padding: 11rem var(--px) 7rem;
+  background: var(--bg);
+}
+.policy-page > * {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.policy-back {
+  display: block;
+  margin-bottom: 3rem;
+  color: var(--gold);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.policy-page h1 {
+  margin-bottom: 0.75rem;
+  color: #fff;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -1.5px;
+}
+.policy-updated {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+.policy-content {
+  margin-top: 3.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+.policy-content h2 {
+  margin: 2rem 0 0.6rem;
+  color: #fff;
+  font-size: 1.25rem;
+}
+.policy-content p {
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+.policy-content a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+@media (max-width: 768px) {
+  .policy-page {
+    padding: 9rem 1.5rem 5rem;
+  }
+}

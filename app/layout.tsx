@@ -3,9 +3,9 @@ import "./globals.css";
 import AnimationProvider from "@/components/AnimationProvider";
 
 export const metadata: Metadata = {
-  title: "zenivo — Digital Product Development Team",
+  title: "zenivo — Freelance Software Development",
   description:
-    "We build scalable digital products, apps, and automation systems for startups and growing businesses.",
+    "Freelance software development by Abinav Kishore: web apps, mobile apps, AI automation, backend systems and APIs.",
   icons: {
     icon: "/favicon.ico",
   },

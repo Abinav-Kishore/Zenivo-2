@@ -1,6 +1,5 @@
 ﻿"use client";
 import { useEffect, useState } from "react";
-import Link from "next/link";
 
 function scrollTo(id: string) {
   const el = document.getElementById(id);
@@ -42,10 +41,10 @@ export default function Header() {
               <button onClick={() => scrollTo("services")}>Services</button>
             </li>
             <li>
-              <button onClick={() => scrollTo("work")}>Our Work</button>
+              <button onClick={() => scrollTo("projects")}>Projects</button>
             </li>
             <li>
-              <button onClick={() => scrollTo("process")}>Process</button>
+              <button onClick={() => scrollTo("pricing")}>Pricing</button>
             </li>
             <li>
               <button onClick={() => scrollTo("about")}>About</button>
@@ -77,10 +76,10 @@ export default function Header() {
             <button onClick={() => navTo("services")}>Services</button>
           </li>
           <li>
-            <button onClick={() => navTo("work")}>Our Work</button>
+            <button onClick={() => navTo("projects")}>Projects</button>
           </li>
           <li>
-            <button onClick={() => navTo("process")}>Process</button>
+            <button onClick={() => navTo("pricing")}>Pricing</button>
           </li>
           <li>
             <button onClick={() => navTo("about")}>About</button>

@@ -1,4 +1,5 @@
 ﻿import ScrollLink from "@/components/ScrollLink";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
             zenivo
           </ScrollLink>
           <p className="footer-tagline">
-            Digital product development team — design, build, scale.
+            Independent software development by Abinav Kishore.
           </p>
         </div>
         <div className="footer-nav-group">
@@ -36,10 +37,10 @@ export default function Footer() {
           <h4>Company</h4>
           <ul>
             <li>
-              <ScrollLink to="work">Our Work</ScrollLink>
+              <ScrollLink to="projects">Projects</ScrollLink>
             </li>
             <li>
-              <ScrollLink to="process">Process</ScrollLink>
+              <ScrollLink to="pricing">Pricing</ScrollLink>
             </li>
             <li>
               <ScrollLink to="about">About</ScrollLink>
@@ -68,9 +69,15 @@ export default function Footer() {
           </ul>
         </div>
       </div>
+      <div className="footer-policies">
+        <Link href="/privacy-policy">Privacy Policy</Link>
+        <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>
+        <Link href="/cancellation-and-refund-policy">Cancellation &amp; Refund</Link>
+        <Link href="/shipping-policy">Shipping Policy</Link>
+      </div>
       <div className="footer-bottom">
-        <span> 2026 zenivo. All rights reserved.</span>
-        <span>Built with intention.</span>
+        <span>© 2026 zenivo. All rights reserved.</span>
+        <span>Software services. No physical products.</span>
       </div>
     </footer>
   );
