@@ -10,16 +10,16 @@ const caseStudies = [
   {
     num: "01",
     title: "ObliQ",
-    client: "Personal / open-source",
-    year: "GitHub",
-    focus: "Python project",
+    client: "Personal Project",
+    year: "2026",
+    focus: "AI Contract Intelligence",
     problem:
-      "A public software project maintained in the Abinav-Kishore GitHub profile.",
+      "Contracts contain critical obligations, deadlines and risk information, but extracting and connecting that information manually is time-consuming.",
     solution:
-      "Inspect the source, history and documentation in the public repository.",
-    stack: ["Python", "Public repository"],
+      "An AI-powered contract intelligence platform that processes documents, identifies obligations, deadlines and risks, and provides evidence-backed insights across contracts.",
+    stack: ["Python", "AI / LLM", "Document Processing"],
     impact:
-      "Portfolio work only. No client, testimonial or business-result claim is made.",
+      "Built as a full-stack AI application focused on turning unstructured contract documents into structured, actionable intelligence.",
     repo: "https://github.com/Abinav-Kishore/ObliQ",
     image: obliqPreview.src,
     gradient: "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
@@ -27,16 +27,16 @@ const caseStudies = [
   {
     num: "02",
     title: "Vantic",
-    client: "Personal / open-source",
-    year: "GitHub",
-    focus: "TypeScript project",
+    client: "Personal Project",
+    year: "2026",
+    focus: "Multi-Agent Market Intelligence",
     problem:
-      "A public software project maintained in the Abinav-Kishore GitHub profile.",
+      "Investment research requires combining technical indicators, company fundamentals and market sentiment from multiple sources.",
     solution:
-      "Inspect the source, history and documentation in the public repository.",
-    stack: ["TypeScript", "Public repository"],
+      "A multi-agent research platform that uses specialist agents for technical, fundamental and sentiment analysis before combining their findings into an explainable investment report.",
+    stack: ["TypeScript", "Multi-Agent AI", "Financial Analysis"],
     impact:
-      "Portfolio work only. No client, testimonial or business-result claim is made.",
+      "Designed an explainable AI workflow where individual analysis steps and supporting evidence remain visible instead of producing a black-box recommendation.",
     repo: "https://github.com/Abinav-Kishore/Vantic",
     image: vanticPreview.src,
     gradient: "linear-gradient(135deg, #0d1b0d 0%, #1a3a1a 50%, #0d2d0d 100%)",
@@ -44,16 +44,16 @@ const caseStudies = [
   {
     num: "03",
     title: "DayFlow",
-    client: "Personal / open-source",
-    year: "GitHub",
-    focus: "TypeScript project",
+    client: "Personal Project",
+    year: "2026",
+    focus: "HR Management System",
     problem:
-      "A public software project maintained in the Abinav-Kishore GitHub profile.",
+      "Small and mid-sized organizations need a central system to manage attendance, leave, payroll and employee operations across different roles.",
     solution:
-      "Inspect the source, history and documentation in the public repository.",
-    stack: ["TypeScript", "Public repository"],
+      "A full-stack HRMS with role-based portals for employees and administrators, covering attendance, leave management, payroll and reporting.",
+    stack: ["React", "TypeScript", "Express", "PostgreSQL", "Prisma"],
     impact:
-      "Portfolio work only. No client, testimonial or business-result claim is made.",
+      "Built a production-style business application with authentication, role-based workflows, database-backed operations and separate frontend/backend architecture.",
     repo: "https://github.com/Abinav-Kishore/Dayflow",
     image: dayFlowPreview.src,
     gradient: "linear-gradient(135deg, #1a0d00 0%, #3d1f00 50%, #1a0d00 100%)",
@@ -61,16 +61,16 @@ const caseStudies = [
   {
     num: "04",
     title: "Viora",
-    client: "Personal / open-source",
-    year: "GitHub",
-    focus: "Kotlin project",
+    client: "Personal Project",
+    year: "2026",
+    focus: "Android Payment Security",
     problem:
-      "A public software project maintained in the Abinav-Kishore GitHub profile.",
+      "UPI users can be exposed to fraudulent payment requests, malicious QR codes and deceptive payment flows.",
     solution:
-      "Inspect the source, history and documentation in the public repository.",
-    stack: ["Kotlin", "Public repository"],
+      "An Android security application that analyzes payment-related content, including QR codes and UPI information, to identify potential fraud indicators and warn users.",
+    stack: ["Kotlin", "Android", "OCR", "UPI", "On-device Analysis"],
     impact:
-      "Portfolio work only. No client, testimonial or business-result claim is made.",
+      "Explored a security-focused mobile workflow combining QR scanning, OCR, payment-data analysis and Android system integrations.",
     repo: "https://github.com/Abinav-Kishore/Viora",
     image: vioraPreview.src,
     gradient: "linear-gradient(135deg, #1a001a 0%, #2d002d 50%, #1a0033 100%)",
@@ -78,16 +78,16 @@ const caseStudies = [
   {
     num: "05",
     title: "CASCADE",
-    client: "Personal / open-source",
-    year: "GitHub",
-    focus: "TypeScript project",
+    client: "Personal Project",
+    year: "2026",
+    focus: "Infrastructure Failure Analysis",
     problem:
-      "A public software project maintained in the Abinav-Kishore GitHub profile.",
+      "Failures in interconnected infrastructure can propagate through dependent systems, making it difficult to understand downstream impact and choose effective interventions.",
     solution:
-      "Inspect the source, history and documentation in the public repository.",
-    stack: ["TypeScript", "Public repository"],
+      "A decision-support engine that models failure propagation, evaluates system impact, compares corrective actions and stress-tests recommendations against additional failures.",
+    stack: ["TypeScript", "Simulation", "Decision Support"],
     impact:
-      "Portfolio work only. No client, testimonial or business-result claim is made.",
+      "Built a structured simulation workflow for exploring cascading failures and evaluating potential mitigation strategies across infrastructure scenarios.",
     repo: "https://github.com/Abinav-Kishore/Cascade",
     image: cascadePreview.src,
     gradient: "linear-gradient(135deg, #1a001a 0%, #2d002d 50%, #1a0033 100%)",
