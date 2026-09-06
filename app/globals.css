@@ -2478,6 +2478,16 @@ a.contact-detail-val:hover {
 
 /* Hide all lower-section decorations on mobile */
 @media (max-width: 768px) {
+  .footer-policies {
+    justify-content: flex-start;
+    row-gap: 0.75rem;
+  }
+  .footer-policies a {
+    padding: 0 0.75rem;
+  }
+  .footer-policies a:first-child {
+    padding-left: 0;
+  }
   .about-orb,
   .about-circuit,
   .bigcta-radar,
@@ -2572,6 +2582,32 @@ a.contact-detail-val:hover {
   transition: color 0.3s;
 }
 .footer-bottom a:hover {
+  color: var(--gold);
+}
+.footer-policies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0;
+  border-top: 1px solid var(--border);
+  padding: 1.25rem 0;
+  margin-bottom: 1.5rem;
+}
+.footer-policies a {
+  padding: 0 1rem;
+  border-right: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  transition: color 0.3s;
+}
+.footer-policies a:first-child {
+  padding-left: 0;
+}
+.footer-policies a:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+.footer-policies a:hover {
   color: var(--gold);
 }
 
