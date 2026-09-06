@@ -3,6 +3,8 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import vanticPreview from "@/assets/Vantic-Preview.png";
 import dayFlowPreview from "@/assets/DayFlow-Preview.jpeg";
 import cascadePreview from "@/assets/Cascade-Preview.png";
+import vioraPreview from "@/assets/Viora-Preview.png";
+import obliqPreview from "@/assets/Obliq-Preview.png";
 
 const caseStudies = [
   {
@@ -11,12 +13,15 @@ const caseStudies = [
     client: "Personal / open-source",
     year: "GitHub",
     focus: "Python project",
-    problem: "A public software project maintained in the Abinav-Kishore GitHub profile.",
-    solution: "Inspect the source, history and documentation in the public repository.",
+    problem:
+      "A public software project maintained in the Abinav-Kishore GitHub profile.",
+    solution:
+      "Inspect the source, history and documentation in the public repository.",
     stack: ["Python", "Public repository"],
-    impact: "Portfolio work only. No client, testimonial or business-result claim is made.",
+    impact:
+      "Portfolio work only. No client, testimonial or business-result claim is made.",
     repo: "https://github.com/Abinav-Kishore/ObliQ",
-    image: "",
+    image: obliqPreview.src,
     gradient: "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
   },
   {
@@ -25,10 +30,13 @@ const caseStudies = [
     client: "Personal / open-source",
     year: "GitHub",
     focus: "TypeScript project",
-    problem: "A public software project maintained in the Abinav-Kishore GitHub profile.",
-    solution: "Inspect the source, history and documentation in the public repository.",
+    problem:
+      "A public software project maintained in the Abinav-Kishore GitHub profile.",
+    solution:
+      "Inspect the source, history and documentation in the public repository.",
     stack: ["TypeScript", "Public repository"],
-    impact: "Portfolio work only. No client, testimonial or business-result claim is made.",
+    impact:
+      "Portfolio work only. No client, testimonial or business-result claim is made.",
     repo: "https://github.com/Abinav-Kishore/Vantic",
     image: vanticPreview.src,
     gradient: "linear-gradient(135deg, #0d1b0d 0%, #1a3a1a 50%, #0d2d0d 100%)",
@@ -39,10 +47,13 @@ const caseStudies = [
     client: "Personal / open-source",
     year: "GitHub",
     focus: "TypeScript project",
-    problem: "A public software project maintained in the Abinav-Kishore GitHub profile.",
-    solution: "Inspect the source, history and documentation in the public repository.",
+    problem:
+      "A public software project maintained in the Abinav-Kishore GitHub profile.",
+    solution:
+      "Inspect the source, history and documentation in the public repository.",
     stack: ["TypeScript", "Public repository"],
-    impact: "Portfolio work only. No client, testimonial or business-result claim is made.",
+    impact:
+      "Portfolio work only. No client, testimonial or business-result claim is made.",
     repo: "https://github.com/Abinav-Kishore/Dayflow",
     image: dayFlowPreview.src,
     gradient: "linear-gradient(135deg, #1a0d00 0%, #3d1f00 50%, #1a0d00 100%)",
@@ -53,12 +64,15 @@ const caseStudies = [
     client: "Personal / open-source",
     year: "GitHub",
     focus: "Kotlin project",
-    problem: "A public software project maintained in the Abinav-Kishore GitHub profile.",
-    solution: "Inspect the source, history and documentation in the public repository.",
+    problem:
+      "A public software project maintained in the Abinav-Kishore GitHub profile.",
+    solution:
+      "Inspect the source, history and documentation in the public repository.",
     stack: ["Kotlin", "Public repository"],
-    impact: "Portfolio work only. No client, testimonial or business-result claim is made.",
+    impact:
+      "Portfolio work only. No client, testimonial or business-result claim is made.",
     repo: "https://github.com/Abinav-Kishore/Viora",
-    image: "",
+    image: vioraPreview.src,
     gradient: "linear-gradient(135deg, #1a001a 0%, #2d002d 50%, #1a0033 100%)",
   },
   {
@@ -67,10 +81,13 @@ const caseStudies = [
     client: "Personal / open-source",
     year: "GitHub",
     focus: "TypeScript project",
-    problem: "A public software project maintained in the Abinav-Kishore GitHub profile.",
-    solution: "Inspect the source, history and documentation in the public repository.",
+    problem:
+      "A public software project maintained in the Abinav-Kishore GitHub profile.",
+    solution:
+      "Inspect the source, history and documentation in the public repository.",
     stack: ["TypeScript", "Public repository"],
-    impact: "Portfolio work only. No client, testimonial or business-result claim is made.",
+    impact:
+      "Portfolio work only. No client, testimonial or business-result claim is made.",
     repo: "https://github.com/Abinav-Kishore/Cascade",
     image: cascadePreview.src,
     gradient: "linear-gradient(135deg, #1a001a 0%, #2d002d 50%, #1a0033 100%)",
