@@ -1,5 +1,8 @@
 "use client";
 import { useCallback, useEffect, useRef, useState } from "react";
+import vanticPreview from "@/assets/Vantic-Preview.png";
+import dayFlowPreview from "@/assets/DayFlow-Preview.jpeg";
+import cascadePreview from "@/assets/Cascade-Preview.png";
 
 const caseStudies = [
   {
@@ -27,7 +30,7 @@ const caseStudies = [
     stack: ["TypeScript", "Public repository"],
     impact: "Portfolio work only. No client, testimonial or business-result claim is made.",
     repo: "https://github.com/Abinav-Kishore/Vantic",
-    image: "",
+    image: vanticPreview.src,
     gradient: "linear-gradient(135deg, #0d1b0d 0%, #1a3a1a 50%, #0d2d0d 100%)",
   },
   {
@@ -41,7 +44,7 @@ const caseStudies = [
     stack: ["TypeScript", "Public repository"],
     impact: "Portfolio work only. No client, testimonial or business-result claim is made.",
     repo: "https://github.com/Abinav-Kishore/Dayflow",
-    image: "",
+    image: dayFlowPreview.src,
     gradient: "linear-gradient(135deg, #1a0d00 0%, #3d1f00 50%, #1a0d00 100%)",
   },
   {
@@ -69,7 +72,7 @@ const caseStudies = [
     stack: ["TypeScript", "Public repository"],
     impact: "Portfolio work only. No client, testimonial or business-result claim is made.",
     repo: "https://github.com/Abinav-Kishore/Cascade",
-    image: "",
+    image: cascadePreview.src,
     gradient: "linear-gradient(135deg, #1a001a 0%, #2d002d 50%, #1a0033 100%)",
   },
 ];
