@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="footer-inner">
         <div>
           <ScrollLink to="home" className="footer-logo">
-            zenivo
+            Zenivo
           </ScrollLink>
           <p className="footer-tagline">
             Independent software development by Abinav Kishore.
@@ -57,7 +57,7 @@ export default function Footer() {
               <a href="mailto:care.zenivo@gmail.com">care.zenivo@gmail.com</a>
             </li>
             <li>
-              <a href="tel:+919360432078">+91 93604 32078</a>
+              <a href="tel:+9480856830">+91 94808 56830</a>
             </li>
             <li>
               <span

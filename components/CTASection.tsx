@@ -72,8 +72,8 @@ export default function CTASection() {
             </div>
             <div>
               <span className="contact-detail-label">Phone</span>
-              <a href="tel:+919360432078" className="contact-detail-val">
-                +91 93604 32078
+              <a href="tel:+919480856830" className="contact-detail-val">
+                +91 94808 56830
               </a>
             </div>
             <div>
